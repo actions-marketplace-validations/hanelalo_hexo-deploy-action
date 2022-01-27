@@ -57,7 +57,8 @@ echo "Config git ..."
 # Configures Git.
 git init
 git config user.name "${GITHUB_ACTOR}"
-git config user.email "${GITHUB_ACTOR}@users.noreply.github.com"
+git config user.email "${USER_EMAIL}"
+echo "${REPOSITORY_PATH}..."
 git remote add origin "${REPOSITORY_PATH}"
 
 # Checks to see if the remote exists prior to deploying.
