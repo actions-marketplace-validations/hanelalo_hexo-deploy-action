@@ -18,7 +18,7 @@ jobs:
       uses: actions/checkout@master
 
     - name: Build and Deploy
-      uses: y4code/hexo-deploy-action@master
+      uses: hanelalo/hexo-deploy-action@master
       env:
         PERSONAL_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         PUBLISH_REPOSITORY: hanelalo/hanelalo.github.io # The repository the action should deploy to.
