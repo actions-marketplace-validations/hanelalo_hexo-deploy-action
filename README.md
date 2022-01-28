@@ -48,5 +48,5 @@ Below you'll find a description of what each option does.
 | `PUBLISH_REPOSITORY`  | The repository the action should deploy to. for example `hanelalo/hanelalo.github.io` | `env` | **Yes** |
 | `BRANCH`  | The branch the action should deploy to. for example `master` | `env` | **Yes** |
 | `PUBLISH_DIR`  | The folder the action should deploy. for example `./public`| `env` | **Yes** |
-|`USER_EMAIL`|the user email when execute `git commit`|`env`|***Yes*|
+|`USER_EMAIL`|the user email when execute `git commit`|`env`|**Yes**|
 
