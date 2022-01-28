@@ -58,7 +58,6 @@ echo "Config git ..."
 git init
 git config user.name "${GITHUB_ACTOR}"
 git config user.email "${USER_EMAIL}"
-echo "${REPOSITORY_PATH}..."
 git remote add origin "${REPOSITORY_PATH}"
 
 # Checks to see if the remote exists prior to deploying.
